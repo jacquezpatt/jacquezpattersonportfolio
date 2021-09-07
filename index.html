@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jacquez Patterson's Portfolio</title>
-    <link rel="stylesheet" href="portfoliostylesheet.css">
+    <link rel="stylesheet" href="assets/stylesheet.css">
 </head>
 
 
@@ -17,7 +17,7 @@
             <ul>
                 <!--Clicking a link in the nav bar leads to corresponding section.-->
                 <li> <a href="#About-Me"> About Me</a></li>
-                <li> <a href="#Work"> Work</a></li>
+                <li> <a href="#Projects"> Projects</a></li>
                 <li> <a href="#Contact-Me">Contact Me</a></li>
             </ul>
         </nav>
@@ -26,9 +26,10 @@
     <h2>
         <section>
             <!--A profile image of me that enlarges when hovering over it.-->
-            <img src="bowtie.jpeg" alt="Me ready to work for you." </section>
+            <img class="avatar" src="assets\bowtie.jpeg" alt="Me ready to work for you."></img>
+        </section>
     </h2>
-    <main>
+    <div>
         <h3 id="About-Me">About Me</h3>
         <!--A short paragraph about me.-->
 
@@ -43,24 +44,41 @@
             some of my work that I have learned and can apply, please have a look.</p>
 
 
-        <h4 id="Work">Work</h4>
+        <h4 id="Projects">Projects</h4>
         <!--A section featuring my projects.-->
-
-        <div>
+        <section id="scrshts">
+            <img>
             <!--Clicking the screenshot image leads to the project in the screenshot.-->
-            <a href="https://jacquezpatt.github.io/Homework-Repo/"> <img src="screenshot3.png"
+            <a href="https://jacquezpatt.github.io/Homework-Repo/"> <img src="assets\screenshot1.png"
                     alt="Horiseon Project Screenshot"> </a>
-
-        </div>
+            </img>
+            <img>
+            <!--Clicking the screenshot image leads to the project in the screenshot.-->
+            <a href="https://jacquezpatt.github.io/passwordgeneratorhw/"> <img src="assets\sceenshot5.png"
+                    alt="Password Generator Screenshot"> </a>
+            </img>
+            <img>
+            <!--Clicking the screenshot image leads to the project in the screenshot.-->
+            <a href="https://github.com/jacquezpatt/jacquezpattersonportfolio"> <img src="assets\screenshot10.png"
+                    alt="Original Portfolio Screenshot"> </a>
+            </img>
+            <img>
+            <!--Clicking the screenshot image leads to the project in the screenshot.-->
+            <a href="https://jacquezpatt.github.io/WebAPIQuiz/"> <img src="assets\screenshot6.png"
+                    alt="Code Quiz Screenshot"> </a>
+            </img>
+        </section>
         <h5 id="Contact-Me">Contact Me</h5>
         <!--A section with my contact info.-->
         <ul>
             <li>980-245-0535</li>
             <li>jacquezpatt@gmail.com</li>
-            <li>https://www.linkedin.com/in/jacquez-patterson-4a0055138</li>
+            <li> <a href="https://www.linkedin.com/in/jacquez-patterson-4a0055138/" alt="Link to LinkedIn">LinkedIn</a></li>
+            <li><a href="https://github.com/jacquezpatt" alt="Link to GitHub">GitHub</a></li>
+            <li><a href="assets\mydownloadableresume.pdf" download="My Resume">Resume</a></li>
         </ul>
 
-    </main>
+    </div>
     <footer>Made by Jacquez Patterson.</footer>
 </body>
 
