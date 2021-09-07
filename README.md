@@ -3,21 +3,18 @@
 [Link to portfolio](<a href="file:///C:/Users/Jacq/Activities/Homework/Homework-Repo/02-Homework/jacquezpattersonportfolio.html">)
 
 ## Table of Contents
-- [Assets](Contains-the-assignment-and-all-it's-pieces.)
-- [bowtie.jpeg](Contains-an-image-used-in-the-assignment.)
-- [jacquezpattersonportfolio.html](Contains-the-assignment.)
-- [portfoliostylesheets.css](Contains-the-stylesheet.)
-- [screenshot](Contains-the-screenshot-image.)
+- [Assets](Contains-the-stylesheet-my-downloadable-resume-and-images-included-in-the-portfolio.)
+- [Index.html](Contains-the-HTML-used-to-build-my-portfolio.)
 
 ## Desciption
-A deployed portfolio with work samples and facts about me. For an employer to determine if I am a good candidate for an open position.
+A deployed portfolio with work samples and facts about me. Within there are links to various ways to contact me and a downloadable resume.
 
 ## Screenshots
-![Screenshot of Portfolio](<a href="C:\Users\Jacq\Activities\Homework\jacquezpattersonportfolio\screenshot4.png">)
+![Screenshot of Portfolio](assets\screenshot11.png)
 
 
 ## Usage
-Use this portfolio by opening jacquezpattersonportfolio.html in a browser.
+Use this portfolio by opening in a browser.
 
 ## License
 None
